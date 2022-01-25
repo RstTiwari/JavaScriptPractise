@@ -39,6 +39,52 @@ const id = (l) => {
     return array.reverse()
   }
   console.log(reverseArray([34444433]))
+
+
+
+// reverse a number
+const reverse = (num) =>{
+  num = num + ""
+  return num.split("").reverse().join("")
+}
+console.log(Number(reverse(343222)))
+
+// reverse srting
+const reverse1 = (str) =>{
+  str = str + ""
+  return str.split("").reverse().join("")
+}
+
+console.log(reverse1("ertttt"))
+
+// sorting string in alphbetical order
+
+const sort = (str) => {
+  return str.split("").sort().join("")
+}
+
+console.log(sort("rohitt"))
+
+// sorting array of number in acending order
+
+number = [ 23, 34 , 34 ,32, 2939, 2883, 2228 ,2822]
+const acend  = (number) => {
+  return number.sort(function(a , b){ return a -b })
+}
+
+// sorting array of number in decending order
+console.log(acend(number))
+
+number = [ 23, 34 , 34 ,32, 2939, 2883, 2228 ,2822]
+const decend  = (number) => {
+  return number.sort(function(a , b){ return b - a})
+}
+
+console.log(decend(number))
+
+
+
+
   
   
   
