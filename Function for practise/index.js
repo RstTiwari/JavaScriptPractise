@@ -82,6 +82,17 @@ const decend  = (number) => {
 
 console.log(decend(number))
 
+// function to check if the number is prime or not
+function prime(num){
+  if(num ===1){
+    console,log("number is not prime")
+  } else if(num % 2 ===1 && num % 3 !==0){
+    console.log("num is prime")
+  }else{
+    console.log(" num is not prime")
+  }
+}
+
 
 
 
