@@ -93,6 +93,37 @@ function prime(num){
   }
 }
 
+ const  sumArrgs = (...args) => {
+   let sum = 0
+   for( let arg of args ){sum += arg
+ }
+ 
+ return sum
+ } 
+console.log(sumArrgs(1  , "djdjd", "sndj"))
+
+// finding max valiue of Array
+
+const arr = [6, 89, 3, 12344, 45];
+
+const max = Math.max(...arr)
+console.log(max)
+
+
+// finding min valiue of Array
+
+const arr1 = [6, 89, 3, 12344, 45];
+const min = Math.min(...arr1)
+console.log(min)
+
+arr2 = arr.concat(arr1)
+console.log(arr2)
+
+// concating two existing array
+num1 = []
+num2 = [1,2,3,5]
+num3 = num1.concat(num2)
+console.log(num3)
 
 
 
